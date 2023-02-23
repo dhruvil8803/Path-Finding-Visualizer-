@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    height: 10vh;
+}
+.navbar button{
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.navbar h1{
+    color: white;
+}
+.Algo{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Algo p {
+    color: white;
+}
+.Algo select{
+    width: 60%;
+}
+.grid{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+}
+td{
+    border: 1px solid black;
+    height: 25px;
+    width: 25px;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.5s background-color ease;
+}
+table{
+    border-collapse:collapse;
+}
